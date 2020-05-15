@@ -1,5 +1,7 @@
 ### Purpose
-At Hercules, there's the need to analyze a lot of data coming from the CMA valves. As there are .csv data files exported from testing and .json (specifically .sdat and .parameter) files that need to be dissected, there lies an opportunity to write scripts to import them into a database, store, read, compare, and utilize them. This is the software
+At Hercules, there's the need to analyze a lot of data coming from the CMA valves. As there are .csv data files exported from testing and .json (.parameter) and .csv(.sdat) files that need to be dissected, there lies an opportunity to write scripts to import them into a database, store, read, compare, and utilize them. 
+This is the software package to transform them into neat data sets.
+Written in Python and SQL. Also used Pandas library.
 
 ### How to use the programs
 If you want to import the .csv data into the database: 
