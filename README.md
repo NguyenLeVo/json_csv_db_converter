@@ -3,6 +3,9 @@
 - This is the software package to transform them into neat data sets.
 - Written in Python and SQL. Also used Pandas library.
 
+### Result
+- The .parameter (.json) went from 24938 lines of data to 859 lines, achieving a 96.5% reduction in data size.
+
 ### How to use the programs
 If you want to import the .csv data into the database: 
 - Run python csv_import.py x.csv in the command line where x is the name of the csv file
