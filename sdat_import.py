@@ -26,4 +26,4 @@ with open(argv[1]) as database:
     for row in database_reader:
 
         # Insert the data into the sdat database
-        db.execute("INSERT INTO sdata (Node_Name, Description, Object_ID, Data_Type, Value) VALUES(?,?,?,?,?)", row[0], row[1], row[2], row[3], row[4])https://stackoverflow.com/questions/37706351/nested-json-to-csv-generic-approach
+        db.execute("INSERT INTO sdata (Node_Name, Description, Object_ID, Data_Type, Value) VALUES(?,?,?,?,?)", row[0], row[1], row[2], row[3], row[4])
